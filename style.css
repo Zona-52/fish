@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Varela+Round&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background: url("img/background.jpg") no-repeat;
+    background-attachment: fixed;
+
+    opacity: 1;
+    line-height: 2rem;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.3rem;
+    color: #eee;
+}
+
+ul, ol
+{
+    margin-left: 50px;
+}
+
+h2
+{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.lounge__img
+{
+    text-align: center;
+}
+
+.skat
+{
+    width: 50vw;
+}
+
+.lobby
+{
+    margin-bottom: 200px;
+}
+
+.lobby__greeting
+{
+    display: flex;
+    text-align: center;
+    padding: 25vh 0 0 27vw;
+}
+
+.lobby__image
+{
+    height: 50vh;
+}
+
+.lobby__title
+{
+    margin: 50px 0 0 50px;
+    line-height: normal;
+    font-family: 'Coda Caption', sans-serif;
+    font-size: 9rem;
+    text-transform: uppercase;
+    background: linear-gradient(
+        -30deg,
+        #087745 20%,
+        #22aa70 60%,
+        #058845 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+}
+
+.lounge__cell
+{
+    min-height: 10vh;
+    padding: 40px;
+    padding-right: 30px;
+    margin: 50px 30px;
+    border-radius: 30px;
+    background: linear-gradient(45deg,
+        rgba(10, 10, 20, 0.3),
+        rgba(10, 20, 20, 0.5) 100%);
+
+}
